@@ -40,10 +40,11 @@ module shift_reg (
 endmodule
 
 ```
-Testbench Program
+## Testbench Program
 
 // gedit tb6.v
 
+```
 
 module tb6;
     reg  clk, rst, sin;
@@ -93,6 +94,7 @@ module tb6;
         #20 $finish;
     end
     endmodule
+```
 
 ## Operation / Truth Table
 
